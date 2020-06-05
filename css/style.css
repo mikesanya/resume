@@ -1,0 +1,214 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    color: #404040;
+   
+}
+   
+
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    border:1px solid #ffca28;  
+    margin:2em 1;
+    
+   
+   
+}
+.fa-graduation-cap {
+    color: #ffca28;
+    font-size: 30px;
+    border: 0px;
+    box-shadow: none;
+    margin-left: 20px;
+
+}
+
+
+
+#michael {
+    color: #ffca28;
+}
+.left {
+    color:  #ffca28;
+    background-color: #404040;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+
+
+#Wrapper {
+    display: flex ;
+    flex-flow: row wrap;
+}
+#Side {
+    display: inline-block;
+    flex: 28%;
+    min-height: 1000px;
+    text-align: center;
+    background-color: #ffca28;
+  
+}
+#Main {
+    display: inline-block;
+    flex: 71%;
+    min-height: 600px;
+    
+}
+
+#Picture {
+    width: 100%;
+    min-height: 100px;
+    
+}
+#Contact {
+    width: 100%;
+    min-height: 200px;
+    text-align: left;
+    padding: 10px;
+    margin-left: 50px;
+    
+}
+.justify {
+    width: 80%;
+    text-align: justify;
+    margin: 0 auto;
+   
+}
+
+#Profile {
+    width: 100%;
+    min-height: 400px;
+    letter-spacing: 0em;
+    padding-top: 20px;
+    
+}
+#Hobbies {
+    width: 100%;
+    min-height: 100px;
+
+}
+.fa-music {
+    font-size: 40px;
+    border: 0px;
+    box-shadow: 0px 0px 4px #404040;
+    margin-left: 10px;
+    border-radius: 60px;
+    padding: 10px 10px;
+    margin-left: 10px;
+    color: #404040;
+}
+.fa-futbol {
+    font-size: 40px;
+    border: 0px;
+    box-shadow: 0px 0px 4px #404040;
+    margin-left: 10px;
+    border-radius: 60px;
+    padding: 10px 10px;
+    margin-top: 20px;
+    color: #404040;
+
+}
+.fa-chess {
+    font-size: 40px;
+    border: 0px;
+    box-shadow: 0px 0px 4px #404040;
+    margin-left: 10px;
+    border-radius: 60px;
+    padding: 10px 10px;
+    color: #404040;
+}
+
+#Header {
+    width: 100%;
+    min-height: 100px;
+    padding: 20px;
+    line-height: 10px;
+    
+
+}
+#Education {
+    width: 100%;
+    min-height: 200px;
+    padding: 20px;
+   
+}
+
+#Experience {
+    width: 100%;
+    min-height: 200px;
+    padding: 20px;   
+    display: inline-block; 
+}
+.fa-suitcase {
+    color: #ffca28;
+    font-size: 30px;
+    border: 0px;
+    box-shadow: none;
+    margin-left: 20px;
+
+}
+#Refrence {
+    width: 100%;
+    min-height: 150px;
+    padding: 20px;
+    
+}
+.fa-pencil-alt {
+    color: #ffca28;
+    font-size: 30px;
+    border: 0px;
+    box-shadow: none;
+    margin-left: 20px;
+
+}
+
+.date {
+    width: 10%;
+    padding: 5px;
+    margin-top: 0px;
+    display: inline-block;
+    vertical-align: text-top;
+  
+    
+}
+.detail {
+    width: 80%;
+    padding: 5px;
+    margin-top: 0px;
+    display: inline-block;
+    vertical-align: text-top; 
+     
+}
+   
+
+
+i {
+    color: #ffca28;
+   
+  
+}
+
+ .profile_picture {
+     border-radius: 55%;
+ }
+
+ @media only screen and (max-width: 700px) {
+   
+    #Side, #Main {
+        flex-direction: column;
+      
+    }
+    .date, .detail {
+        width: 100%;
+    }
+  
+
+}
+
+
+
+
