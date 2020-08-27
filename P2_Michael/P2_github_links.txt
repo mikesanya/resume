@@ -1,0 +1,2492 @@
+https://github.com/mikesanya/resume
+
+
+https://mikesanya.github.io/resume/
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+Html
+
+<div class="container">
+  <div style="text-align:center">
+    <h2>Contact Us</h2>
+    <p>Swing by for a cup of coffee, or leave us a message:</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="/w3images/map.jpg" style="width:100%">
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+
+ <span id="michael">MICHAEL</span> SANYA
+        </h1>
+        <h3>
+          <u>Freelancer</u>
+            Web Developer
+        </h3>
+      </header>
+       <!--Education part start-->
+      <section id="Education">
+         
+          <h2><i class="fas fa-graduation-cap"></i>   EDUCATION</h2>
+        <hr>
+        
+        <p class="date">
+          <i class="far small fa-dot-circle"></i>
+          2010-2012
+        </p>
+        <p class="detail">
+         <b>Middlesex University London.</b>
+         <br>
+         Bsc in business information systems.</p>
+         
+        <p class="date">
+          <i class="fas fa-circle"></i>
+          2008-2010
+          </p>
+        <p class="detail">
+         <b>Goldsmith College, London.</b>
+         <br>
+           Diploma in data processing & operations.</p>
+
+#michael {
+    color: #ffca28;
+}
+.left {
+    color:  #ffca28;
+    background-color: #404040;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+
+#Picture {
+    width: 100%;
+    min-height: 100px;
+    
+}
+
+ <div id="Picture">
+        <figure>
+          <img class="profile_picture" src="imgs/profile-picture.jpg " alt="my picture" title="picture">
+          </figure>
+      </div>
+
+<section id="Education">
+         
+          <h2><i class="fas fa-graduation-cap"></i>   EDUCATION</h2>
+        <hr>
+        
+        <p class="date">
+          <i class="far small fa-dot-circle"></i>
+          2010-2012
+        </p>
+        <p class="detail">
+         <b>Middlesex University London.</b>
+         <br>
+         Bsc in business information systems.</p>
+         
+        <p class="date">
+          <i class="fas fa-circle"></i>
+          2008-2010
+          </p>
+        <p class="detail">
+         <b>Goldsmith College, London.</b>
+         <br>
+           Diploma in data processing & operations.</p>
+          
+        </section>
+
+#Education {
+    width: 100%;
+    min-height: 200px;
+    padding: 20px;
+   
+}
+
+.date {
+    width: 10%;
+    padding: 5px;
+    margin-top: 0px;
+    display: inline-block;
+    vertical-align: text-top;
+  
+    
+}
+.detail {
+    width: 80%;
+    padding: 5px;
+    margin-top: 0px;
+    display: inline-block;
+    vertical-align: text-top; 
+     
+}
+
+ <section id="Experience">
+        <h2><i class="fas fa-suitcase"></i>   EXPERIENCE</h2>
+        <hr>
+       
+        <p class="date">
+          <i class="far small fa-dot-circle"></i>
+          2017- Current
+        </p>
+        <p class="detail">
+           <b>Amazon Tilbury.</b>
+           <br>
+           <b>Supervisor/Coach</b>
+           <br>
+            Motivate and supportive of others and builds them to full potential and work
+            with Adecco as HR personal liasing with the amazon HR team to deliver objective
+            for associates.
+            Continuously improve through feedback on associate.
+            Recognise and communicate training opportunities to associates and maintains
+            product knowledge and follow change management process.
+            Delivers training assessments, reports results and perform miscellaneous
+            job-related duties as assigned to assist the amazon team 
+            with customer experience expectations.
+        </p>
+
+       
+        <p class="date">
+          <i class="fas fa-circle"></i>
+           2012-2017
+        </p>
+        <p class="detail">
+           <b>Mark&Spences London Bridge.</b>
+            <br>
+           <b>Customer Service Supervisor</b>
+            <br>
+            Managing the day to day activvities of the company.
+            Supply management with reports on customer needs, problems, interests, competitive,
+            activities and potential for new products and services.
+            Selling product and services using solid arguments for prospective customers.
+            Stock replenishment, first in first out (FIFO).
+            Ensuring the other members of the team are co-ordinated and kept up to date what's 
+            happening in store.
+            Dealing with all customer enquires and solving customer complaints/escalations.
+            Promoting new products and services to cumstomers.
+            Cash handling, cashing up, till duties and also coordinating duties on shift
+            for the team and ensuring our brand with company standard are being maintained.
+          
+        </p>
+      </section>
+
+#Experience {
+    width: 100%;
+    min-height: 200px;
+    padding: 20px;   
+    display: inline-block; 
+}
+
+<p><a href="mailto:yourname@yourisp.com">Send me an email!</a></p>
+<p><a href="myfile.zip">Download the file</a></p>
+
+<p>
+Do you want to see the image in its original size? Click on it!<br />
+<a href="img/moutain.jpg"><img src="img/moutain_small.jpg" alt="Moutain picture" title="Click to enlarge" /></a>
+</p>
+
+<figure>
+<img src="images/notepad.png" alt="Notepad" />
+</figure>
+
+.fa-graduation-cap {
+    color: #ffca28;
+    font-size: 30px;
+    border: 0px;
+    box-shadow: none;
+    margin-left: 20px;
+
+}
+.fa-suitcase {
+    color: #ffca28;
+    font-size: 30px;
+    border: 0px;
+    box-shadow: none;
+    margin-left: 20px;
+
+}
+.fa-pencil-alt {
+    color: #ffca28;
+    font-size: 30px;
+    border: 0px;
+    box-shadow: none;
+    margin-left: 20px;
+
+}
+
+hobbies
+.fa-music {
+    font-size: 40px;
+    border: 0px;
+    box-shadow: 0px 0px 4px #404040;
+    margin-left: 10px;
+    border-radius: 60px;
+    padding: 10px 10px;
+    margin-left: 10px;
+    color: #404040;
+}
+.fa-futbol {
+    font-size: 40px;
+    border: 0px;
+    box-shadow: 0px 0px 4px #404040;
+    margin-left: 10px;
+    border-radius: 60px;
+    padding: 10px 10px;
+    margin-top: 20px;
+    color: #404040;
+
+}
+.fa-chess {
+    font-size: 40px;
+    border: 0px;
+    box-shadow: 0px 0px 4px #404040;
+    margin-left: 10px;
+    border-radius: 60px;
+    padding: 10px 10px;
+    color: #404040;
+}
+
+ <link href="css/style.css" rel="stylesheet" type ="text/css" />
+    <link href="css/all.css" rel="stylesheet" />
+
+hr {
+    display:block;
+    border:1px solid #ffca28;  
+    margin:2em 1;
+    
+   
+   
+}
+.left {
+    color:  #ffca28;
+    background-color: #404040;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+
+  <div class="myphoto">
+              <img src="imgs/profile-photo.jpg" alt="my photo">
+            </div>
+
+
+skills
+
+ <h2>My Skills</h2>       
+           <li>
+         <h2>HTML5</h2><span class="bar"><span class="html"></span></span>    
+           </li>
+           <li>
+         <h2>css</h2><span class="bar"><span class="css"></span></span>    
+           </li>
+           <li>
+         <h2>javascript</h2><span class="bar"><span class="javascript"></span></span>    
+           </li>
+	    <li>
+           <h2>webdesign</h2><span class="bar"><span class="webdesign"></span></span>
+            </li>
+           <li>
+            <h2>photoshop</h2><span class="bar"><span class="photoshop"></span></span>    
+              </li>
+              <li>
+                <h2>logo</h2><span class="bar"><span class="logo"></span></span>    
+                  </li>
+	        </div>
+
+css frame
+.skills {
+  width: 500px;
+  margin: 60px auto;
+  color: #25463e;
+}
+.skills li {
+  margin: 20px 0;
+}
+.bar {
+  background: #25463e;
+  display: block;
+  height: 10px;
+  border: 1px solid rgba(0,0,0,0.3);
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 10px #2187e7b3;
+}
+.bar span {
+  height: 5px;
+  float: left;
+  background: #2187e7;
+}
+.html {
+  width: 95%;
+  animation: html 2s;
+}
+.css {
+  width: 80%;
+  animation: css 2s;
+}
+.javascript {
+  width: 76%;
+  animation: javascript 2s;
+}
+.webdesign {
+  width: 96%;
+  animation: webdesign 2s;
+}
+.photoshop {
+  width: 86%;
+  animation: photoshop 2s;
+}
+.logo {
+  width: 70%;
+  animation: logo 2s;
+}
+@keyframes html {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes css {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+@keyframes javascript {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 75%;
+  }
+}
+
+@keyframes webdesign {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 96%;
+  }
+}
+
+@keyframes photoshop {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 86%;
+  }
+}
+@keyframes logo {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+html.
+
+ <div class= "progress-bar">
+              <p>HTML</p>
+              <div class="container">
+                <div class="skills html">95%</div>
+              </div>
+                <p>CSS</p>
+                 <div class="container">
+                  <div class="skills css">80%</div>
+                 </div>
+            </div>
+            <div class="progress-bar">
+              <p>JavaScript</p>
+               <div class="container">
+               <div class="skills js">75%</div>
+               </div>
+               
+                <p>web design</p>
+                <div class="container">
+                   <div class="skills webd">96%</div>
+                </div>
+            </div>  
+            <div class="progress-bar">   
+               <p>Photoshop</p>
+              <div class="container">
+               <div class="skills ps">86%</div>
+              </div>
+            </div>  
+
+Css
+.progress-bar {
+  width: 30%;
+  height: 200px;
+  margin: auto;
+  margin-top: 80px;
+  display: inline-block;
+}
+HTML
+<div id="photo">
+  <div id="normal"></div>
+  <div id="invert"></div>  
+</div>
+
+CSS
+#photo{
+  animation: blur 5s infinite alternate;
+  height: 90vw;
+  max-height: 640px;
+  max-width: 640px;
+  position: relative;
+  width: 90vw;
+}
+
+#photo div{
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+#normal{
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/141041/lee-morgan.jpg);
+  background-size: cover;
+}
+
+#invert{
+  animation: mask 5s steps(69) infinite alternate;
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/141041/lee-morgan.jpg);
+  background-size: cover;
+  filter: invert(1.0) grayscale(1.0);
+  -webkit-mask: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/141041/sheet.png');
+  -webkit-mask-size: 7000% 100%;
+  mask: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/141041/sheet.png');
+  mask-size: : 7000% 100%;
+}
+
+@keyframes blur{
+  from{
+    filter: blur(3px);
+    opacity: 0;
+  }
+  to{
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes mask{
+  from{
+	  -webkit-mask-position: 0% 0;
+	  mask-position: 0% 0;
+  }
+  to{
+	  -webkit-mask-position: 100% 0;
+	  mask-position: 100% 0;
+  }
+}
+
+a{
+  color: white;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  top: 2em;
+}
+
+TOPIC: BORDERS AND SHADOWING.
+Borders and shadowing
+New chapter, new set of CSS properties. Here, we're going to look at the borders and shadowing effects that can be applied both to the text and the blocks making up our page.
+
+In particular, we're going to reuse our knowledge of colors to choose the color of our borders and shadowing.
+
+Ready to be surprised again?
+
+Standard borders
+CSS provides you with a wide selection of borders to decorate your page. Many CSS properties allow you to change the appearance of your borders: border-width, border-color, border-style…
+
+To get to the point, I intend to directly use the border super-property which includes all these properties. Do you remember the background super-property? It works on the same principle: we're going to be able to combine several values.
+
+For border, you can use up to three values to change the border appearance:
+
+The width: specify the width of your border. Enter a value in pixels (such as 2px).
+
+The color: this is your border's color. As we learned, use either a color name (black, red, etc.) or a hexadecimal value (#FF0000) or an RGB value (rgb(198, 212, 37)).
+
+The border type: several options are available. Your border can be a single solid line, a dotted line or a dashed line, etc. Here are the available values:
+
+none: no border (default);
+
+solid: a single solid line;
+
+dotted: a dotted line;
+
+dashed: a dashed line;
+
+double: a double border;
+
+groove: a grooved line;
+
+ridge: a ridged line;
+
+inset: global inset 3D effect;
+
+outset: global outset 3D effect.
+
+So to obtain a blue border as a dashed line 3 pixels thick around my titles, I would enter:
+
+h1
+{
+    border: 3px blue dashed;
+}
+The next figure shows the various border styles you can use.
+
+Various border styles
+Various border styles
+At the top, on the right, on the left, at the bottom...
+Who said you have to apply the same border to all four sides of your item?
+Nonsense, if you want to put different borders depending on the side (top, bottom, left or right), you can do so with no problem. In this case, you have to use these four properties:
+
+border-top: top border;
+
+border-bottom: bottom border;
+
+border-left: left border;
+
+border-right: right border.
+
+There are also equivalents for setting each detail of the border if you want: border-top-width to change the thickness of the top border, border-top-color for the top color etc.
+
+They are also super-properties which work like border but thus only apply to a single side.
+
+To add a border to the left and right of paragraphs only, we would thus enter:
+
+p
+{
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+You can change the borders of any type of item on the page. We've done it here on paragraphs but you can also change the border of images, important texts such as <strong> etc.
+
+Rounded borders
+Rounded borders are a bit like the Holy Grail webmasters have been waiting for since the last millennia (or so it seems). Since the arrival of CSS3, it's now possible to create them easily!
+
+The border-radius property will allow us to easily round the corners of any item. Simply specify the size ("importance") of the radius in pixels:
+
+p
+{
+    border-radius: 10px;
+}
+The radius is seen in particular if the item has borders, as shown in the figure below.
+
+Rounded borders
+Rounded borders
+... or if it has a background color, as in the next figure.
+
+A background with rounded corners
+A background with rounded corners
+You can also specify the radius shape for each corner. In this case, specify four values:
+
+p
+{
+    border-radius: 10px 5px 10px 5px;
+}
+The values correspond to the following corners in the order indicated:
+
+top left;
+
+top right;
+
+bottom right;
+
+bottom left.
+
+Finally, you can refine the rounding of your corners by creating elliptic curves as in the next figure. In this case, you have to specify two values separated by a / character (slash). To see the effect, it's certainly best to test it:
+
+p
+{
+    border-radius: 20px / 10px;
+}
+Elliptical rounded borders
+Elliptical rounded borders
+Rounded edges work with all newer browsers, including Internet Explorer as of version 9 (IE9) upwards.
+For older versions of Mozilla Firefox, Chrome and Safari, so-called "vendor prefixes" had to be used, in other words, you had to write various versions of the property (-moz-border-radius for Firefox, -webkit-border-radius for Safari, etc.) in the CSS code. This is fortunately now no longer necessary, unless you want to support the older versions of these browsers.
+
+Shadowing
+Shadows are included in the latest innovations provided by CSS3. You now need just a single line of CSS to add shadows to a page!
+
+Here we're going to find out about two types of shadows:
+
+box shadows;
+
+text shadows.
+
+box-shadow: box shadows
+The box-shadow property applies to the whole block and takes four values in the following order:
+
+the shadow horizontal offset;
+
+the shadow vertical offset;
+
+the toning down;
+
+the shadow color.
+
+For example, for a black, 6-pixel shadow, with no toning down, we would enter:
+
+p
+{
+    box-shadow: 6px 6px 0px black;
+}
+The result this would give is shown in the next figure (I added a border to the paragraph to show the effect better).
+
+A shadow under the paragraph
+A shadow under the paragraph
+Let's tone down the shadow using the third setting (figure below). The toning down can be low (less than the offset), normal (equal to the offset) or high (greater than the offset). Let's try a normal offset:
+
+p
+{
+    box-shadow: 6px 6px 6px black;
+}
+A rounded shadow under the paragraph
+A rounded shadow under the paragraph
+You can also add an optional fourth value: inset. In this case, the shadow will be placed inside the block, to give an inset effect:
+
+p
+{
+    box-shadow: 6px 6px 6px black inset;
+}
+I'll leave you to try it to see the result.
+
+The box-shadow property works on all newer browsers, including IE9. For some browsers, especially mobile browsers, a prefix still has to be added. You thus have to enter a -webkit-box-shadow version for this to work on Android and iOS browsers.
+
+text-shadow: text shadow
+With text-shadow, you can add a shadow directly to the letters of your text! The values work in exactly the same way as box-shadow: offset, toning down and color.
+
+p
+{
+    text-shadow: 2px 2px 4px black;
+}
+The result is shown in the next figure.
+
+Shadowed text
+Shadowed text
+This property is recognized by all newer browsers except Internet Explorer, which only recognizes it from version IE10 up.
+
+Summing up
+You can apply a border to an item using the border property. You have to specify the border width, color and type (solid line, dotted line, etc.).
+
+You can round the borders using border-radius.
+
+You can add a shadow to text blocks using box-shadow. You have to specify the shadow vertical and horizontal offset, it toning down level and its color.
+
+The text can also be given a shadow using text-shadow.
+
+
+
+TOPIC: CREATING DYNAMIC APPEARANCES.
+Creating dynamic appearances
+This is one of its strong points: CSS also allows us to change the appearance of items dynamically, in other words, items can change shape once the page has been loaded. We're going to use one of CSS' powerful features: pseudo-formats.
+
+In this chapter, we're going to see how to change the appearance:
+
+when hovering;
+
+on clicking;
+
+on focusing (selected item);
+
+when a link has been visited.
+
+You'll see that CSS still has plenty of surprises in store!
+
+When hovering
+In this chapter, we're going to find out about several CSS pseudo-formats. The first I'm going to show you is called :hover. Like all the other pseudo-formats we're going to see, it's information that is added after the tag name (or class) in the CSS, like this:
+
+a:hover
+{
+   
+}
+:hover can be interpreted as: "When the mouse pointer is over the link" (when you point to it).
+
+From there, it's up to you to define the appearance that links take when you click on them. Give a free rein to your imagination, there's no limit.
+
+Here's an example of link presentation, but feel free to invent your own:
+
+a /* Default links (when not hovered over) */
+{
+   text-decoration: none;
+   color: red;
+   font-style: italic;
+}
+
+a:hover /* Appearance of links when hovered over */
+{
+   text-decoration: underline;
+   color: green;
+}
+We've defined two versions of styles for links:
+
+for default links (when not hovered over);
+
+for links when hovered over.
+
+The result is shown in the next figure.
+
+Change of appearance when hovered over with the mouse
+Change of appearance when hovered over with the mouse
+Nice, isn't it?
+
+While it's often used on links, you can change the appearance of any item. For example, you can change the appearance of paragraphs when you point to them:
+
+p:hover /* When you point to a paragraph */
+{
+
+}
+On clicking and selecting
+You can interact even more finely in CSS. We're going to see that we can change the appearance of items when clicked and when selected!
+
+:active: when clicked
+The :active pseudo-format allows you to apply a particular style when you click. In practice, it's only used on links.
+
+The link won't keep this appearance for very long: in fact, the change takes effect when the mouse button is pressed. Clearly, this won't necessarily always be very visible.
+
+You can, for example, change the link's background color when it's clicked:
+
+a:active /* When the visitor clicks the link */
+{
+    background-color: #FFCC66;
+}
+:focus: when the item is selected
+In this case, it's a bit different. The :focus pseudo-format applies a style when the item is selected.
+
+In other words?
+
+Once clicked, the link remains "selected" (it has a little dotted border around it). That's the selection.
+
+This pseudo-format can be applied to other HTML tags that we have not yet seen, such as form items.
+
+Let's try it for now on links:
+
+a:focus /* When the visitor selects the link */
+{
+    background-color: #FFCC66;
+}
+In Google Chrome and Safari, the effect is only seen when you press the Tab key.
+
+When the link has already been visited
+You can apply a style to a link to a page that has already been visited. As default, the browser changes the link color to a pretty ugly purple (in my view, at least!).
+
+You can change this appearance with :visited. In practice, for visited links, you can't change a lot apart from the color (next figure).
+
+a:visited /* When the visitor has already seen the page concerned */
+{
+    color: #AAA; /* Apply a grey color */
+}
+Visited links in grey
+Visited links in grey
+If you don't want already visited links to be colored in a different way, you have to apply the same color to them as normal links. Many websites do this. One notable exception: Google... which is quite handy, as you can see in the search results whether or not you've already visited the websites found by Google.
+
+Summing up
+In CSS, you can change the appearance of certain sections dynamically, after the page is loaded, when certain events occur. For this purpose, pseudo-formats are used.
+
+The :hover pseudo-format is used to change the appearance on hovering (for example: a:hover to change the appearance of links when the mouse hovers over them).
+
+The :active pseudo-format changes the appearance of links when you click on them, :visited when a link has already been visited.
+
+The :focus pseudo-format is used to change the appearance of a selected item.
+
+Congrats, you made it to the end of this part! Don't forget to complete your exercises before moving on to the next part. You will find the links to the quizz and the assessment of this second part in the course outline. Good luck! :)
+
+
+TOPIC: BOXES MODEL.
+word-wrap: cutting texts that are too big
+If you have to place a very long word in a block, and which is too wide to fit, you'll loveword-wrap. This property is used to force the hyphenation of very long words (usually fairly long addresses).
+
+The figure below shows the possible result when a fairly long URL is entered in a block.
+
+The text goes beyond the available width
+The text goes beyond the available width
+The computer can't "cut" the address as there's no space or hyphen. It doesn't know how to hyphenate.
+
+With the following code, hyphenation will be forced when the text is likely to overflow (figure below).
+
+p
+{
+    word-wrap: break-word;
+}
+The text is cut so it doesn't overflow
+The text is cut so it doesn't overflow
+I recommend using this feature when a block can contain text entered by users (for example, on the forums of your future website). Without this trick, you can easily "break" the design of a website (writing a long series of "aaaaaaaaaaa", for example).
+
+Summing up
+There are two main types of tags in HTML:
+
+The block type (<p>,<h1>…): these tags create a line feed and as default and occupy all the available width. They follow on from each other from top to bottom.
+
+The inline type (<a>,<strong>…): these tags delineate the text in the middle of a line. They follow on from each other from left to right.
+
+You can change the size of a block type tag using the CSS propertieswidthandheight.
+
+You can define the minimum and maximum allowed for the width and height:min-width,max-width,min-height,max-height.
+
+The page items each have inner margins (padding) and outer margins (margin).
+
+If there is too much text inside a block of fixed dimensions, the text may overflow. In this case, it may be wise to add scroll bars using theoverflowproperty or for hyphenation usingword-wrap.
+
+
+TOPIC: & FOR AMP.
+<!-- Example of an incorrect link in HTML -->
+<a href="http://www.site.com/?day=15&month=10&year=2000">
+
+<!-- Example of a correct link in HTML -->
+<a href="http://www.site.com/?day=15&amp;month=10&amp;year=2000">
+
+NAV
+
+@media only screen and (max-width: 700px)
+#nav-button {
+    display: block;
+    float: right;
+    width: 25px;
+    margin-top: 16px;
+    cursor: pointer;
+    position: relative;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+@media only screen and (max-width: 700px)
+.nav-bar {
+    background-color: #2b2b2b;
+    border-radius: 1px;
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 3px auto;
+}
+@media only screen and (max-width: 700px)
+nav {
+    margin: 0px;
+    position: relative;
+    display: block;
+    height: auto;
+    float: none;
+    clear: both;
+}
+
+nav {
+    margin: 0px auto;
+    position: relative;
+    display: table;
+    height: 52px;
+    float: right;
+    z-index: 1000;
+}
+
+@media only screen and (max-width: 700px)
+#nav {
+    display: none;
+    width: 100%;
+    z-index: 300;    float: none;
+    position: relative;
+    top: 0px;
+    padding-top: 25px;
+    list-style: none;
+    border-bottom: 1px solid #ccc;
+}
+#nav {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+@media only screen and (max-width: 700px)
+#nav li {
+    text-align: center;
+    border-top: 1px solid #ccc;
+    float: none;
+    margin: 0;
+    float: none;
+    display: block;
+}
+#nav li {
+    float: left;
+    margin: 0px 0px 0px 25px;
+    cursor: pointer;
+    position: relative;
+}
+
+@media only screen and (max-width: 700px)
+#nav li a {
+    padding: 15px;
+}
+#nav li a {
+    color: #2b2b2b;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+   
+    z-index: 100;
+}
+a {
+    color: #e44b43;
+    text-decoration: none;
+}
+
+#nav li.active .menu-line {
+    color: #8E8E8E;
+    -webkit-transition: all 0.2s ease 0s;
+    transition: all 0.2s ease 0s;
+}
+#nav li .menu-line {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    width: 30px;
+    margin-left: -15px;
+    font-size: 13px;
+    color: #fff;
+    margin-top: -8px;
+  
+    transition: all 0.2s ease 0s;
+    z-index: 1;
+    pointer-events: none;
+}
+@media only screen and (max-width: 700px)
+.menu-line {
+    display: none !important;
+}
+
+TOPIC: TABLE LAYOUT
+Tables
+While tables are essential for organizing information, they're a bit tricky to build in HTML: this is why I've waited until now to tell you about them. Indeed, you'll have to embed new HTML tags in a specific order.
+
+We're going to begin by building basic tables and then gradually go on to more complex aspects: merging cells, dividing into multiple sections... We're also going to find out about table-related CSS properties, used to customize their appearance.
+
+A simple table
+The first tag you need to know about is <table> </table>. It's this tag that specifies the start and end of a table.
+
+This tag is a block tag, so it has to be placed outside a paragraph. Example:
+
+<p>This is a paragraph before the table.</p>
+
+<table>
+   <!-- Insert here your table content -->
+</table>
+
+<p>This is a paragraph after the table.</p>
+OK, so what do you write inside the table?
+
+At this point, get ready for a new avalanche of tags.
+To start off slowly, here are two very important new tags:
+
+<tr> </tr>: specifies the start and end of a table row;
+
+<td> </td>: specifies the start and end of the cell contents.
+
+In HTML, a table is built row by row. In each row (<tr>), the contents of the cells is specified (<td>).
+A table is basically constructed as shown in the figure below.
+
+A table, with cells contained in lines
+A table, with cells contained in lines
+It has a row tag (<tr>) which includes a group of cells (<td>).
+For example, if I want to build a table with two rows, with three cells per row (thus three columns), I would type this:
+
+<table>
+   <tr>
+       <td>Carmen</td>
+       <td>33 years old</td>
+       <td>Spain</td>
+   </tr>
+   <tr>
+       <td>Michelle</td>
+       <td>26 years old</td>
+       <td>United States</td>
+   </tr>
+</table>
+The result is a bit depressing (figure below).
+
+A table without borders
+A table without borders
+You call that a table?
+The text follows on continuously and there aren't even any borders!
+
+Yes, a table without CSS seems pretty empty. And rightly so, since adding borders is very simple. You already know the corresponding CSS code!
+
+td /* All table cells... */
+{
+    border: 1px solid black; /* will have a 1px border */
+}
+And here's the result in the figure below.
+
+Each cell has its own border
+Each cell has its own border
+Um, it's not yet as perfect as you'd what. Indeed, we'd really like only one border between two cells and that's not the case here.
+
+Fortunately, there is a CSS property specific to tables, border-collapse, which means "stick borders together".
+This property can take two values:
+
+collapse: the borders are stuck together; this is the effect we're looking for here;
+
+separate: the borders will be split (default value).
+
+table
+{
+    border-collapse: collapse; /* The table borders will be stuck together (nicer looking) */
+}
+td
+{
+    border: 1px solid black;
+}
+The figure below shows the result obtained.
+
+The borders are stuck together
+The borders are stuck together
+Now that's better!
+
+The header row
+Now that we've what we wanted, we're going to add the table's header row. In the example below, the headers are "Name", "Age" and "Country".
+The header row is created with a <tr> tag as we've done so far, but the cells it contains are this time framed by <th> tags and not <td>!
+
+<table>
+   <tr>
+       <th>Name</th>
+       <th>Age</th>
+       <th>Country</th>
+   </tr>
+
+    <tr>
+       <td>Carmen</td>
+       <td>33 years old</td>
+       <td>Spain</td>
+   </tr>
+   <tr>
+       <td>Michelle</td>
+       <td>26 years old</td>
+       <td>United States</td>
+   </tr>
+</table>
+The header row is easy to recognize for two reasons:
+
+the cells are <th> tags rather than the usual <td> tags;
+
+it's the first row of the table (it has to be pointed out, even though it may be obvious).
+
+As the cell name is slightly different for the header, remember to update the CSS code to tell it to apply a border around normal cells and the header (figure below).
+
+table
+{
+    border-collapse: collapse;
+}
+td, th /* Assign a border to the td AND th tags */
+{
+    border: 1px solid black;
+}
+A table with a header
+A table with a header
+As you can see, your browser has bolded the text in the header cells. Although this is what browsers usually do, you can, if you want, change this using CSS: change the background color, font, borders, etc. of the header cells.
+
+Table title
+Normally, all tables must have a title. The title quickly informs the visitor about the table content.
+Our example is a just list of people... but so what? What does it represent? Without the table title, we're a bit lost, as you can see.
+
+Fortunately, there's <caption>!
+This tag is placed right at the start of the table, just before the header. It's the tag that contains the table title (figure below):
+
+<table>
+   <caption>Passengers of flight 377</caption>
+
+    <tr>
+       <th>Name</th>
+       <th>Age</th>
+       <th>Country</th>
+   </tr>
+    <tr>
+       <td>Carmen</td>
+       <td>33 years old</td>
+       <td>Spain</td>
+   </tr>
+   <tr>
+       <td>Michelle</td>
+       <td>26 years old</td>
+       <td>United States</td>
+   </tr>
+</table>
+A table with a title
+A table with a title
+Ah, that's a bit clearer!
+
+Note that you can change the title position using the CSS caption-side property which can take two values:
+
+top: the title will be placed above the table (as default);
+
+bottom: the title will be placed below the table.
+
+A structured table
+We have learned how to build small, simple tables. While these small tables are sufficient in most cases, you may sometimes need to build more complex tables.
+
+We are going to find out about two special techniques:
+
+Large tables can be divided into three parts:
+
+Header;
+
+Table body;
+
+Table footer.
+
+For some tables, you may need to merge cells together.
+
+Dividing up a big table
+If your table is fairly big, it's best to divide it into several parts. For this purpose, HTML tags are used to define the three "fields" of the table:
+
+the header (at the top): is defined with the tags <thead></thead>;
+
+the body (in the center): is defined with the tags <tbody></tbody>;
+
+the table footer (at the bottom): is defined with the tags <tfoot></tfoot>.
+
+What should you put in the table footer? If it's a long table, you'll usually copy the header cells. This allows you to see what each column refers to, even at the bottom of the table. Basically, a table is divided into three parts as shown in the figure below.
+
+A table split up into several parts
+A table split up into several parts
+It's a bit confusing, but it's advisable to write the tags in the following order:
+
+<thead>
+
+<tfoot>
+
+<tbody>
+
+So, in the code, you define first the top part, then the bottom part, and finally the main part (<tbody>). Don't worry, the browser will take care of displaying each element in the right place.
+
+So here's the code to be entered to build the table in three parts:
+
+<table>
+   <caption>Passagers du vol 377</caption>
+
+   <thead> <!-- Passengers of flight 377 -->
+       <tr>
+           <th>Name</th>
+           <th>Age</th>
+           <th>Country</th>
+       </tr>
+   </thead>
+
+   <tfoot> <!-- Table footer -->
+       <tr>
+           <th>Name</th>
+           <th>Age</th>
+           <th>Country</th>
+       </tr>
+   </tfoot>
+
+   <tbody> <!-- Table body -->
+       <tr>
+           <td>Carmen</td>
+           <td>33 years old</td>
+           <td>Spain</td>
+      </tr>
+      <tr>
+           <td>Michelle</td>
+           <td>26 years</td>
+           <td>United States</td>
+       </tr>
+       <tr>
+           <td>François</td>
+           <td>43 years old</td>
+           <td>France</td>
+       </tr>
+       <tr>
+           <td>Martine</td>
+           <td>34 years old</td>
+           <td>France</td>
+       </tr>
+       <tr>
+           <td>Jonathan</td>
+           <td>13 years old</td>
+           <td>Australia</td>
+       </tr>
+       <tr>
+           <td>Xu</td>
+           <td>19 years old</td>
+           <td>China</td>
+       </tr>
+   </tbody>
+</table>
+You don't necessarily need to use these three tags (<thead>, <tbody>, <tfoot>) in all tables. In fact, you'll use them more especially if your table is fairly big and you need to organize it more clearly.
+For "small" tables, you can easily keep the simpler organization we saw at the beginning.
+
+3, 2, 1… Merge!
+In some complex tables, you'll need to "merge" the cells together.
+An example of merging? The table in the figure below provides a list of films and their intended audience.
+
+A table containing film titles and their audience
+A table containing film titles and their audience
+For the last film, you can see that the cells have been merged into one This is exactly the effect we are trying to achieve.
+
+To merge, you add an attribute to the tag <td>. There are two types of merging:
+
+Merging of columns: this is what I've just done in this example. The cells are merged horizontally.
+
+The colspan attribute is used.
+
+Merging of rows: in this case, two rows are merged into one. The cells are merged vertically.
+
+The rowspan attribute is used.
+
+As you know, you have to give a value to the attribute (whether it be colspan or rowspan). You have to specify the number of cells to be merged together. In our example, we merged two cells: the cell of the "For children?" column the cell of the "For adolescents?" column ». We thus have to enter:
+
+<td colspan="2">
+… which means: "This cell is the merging of two cells." You can merge several cells at once (three, four, five, etc. as much as you want).
+
+Here's the HTML code that merges the corresponding cells of the table above:
+
+<table>
+   <tr>
+       <th>Film title</th>
+       <th>For children?</th>
+       <th>For adolescents?</th>
+   </tr>
+   <tr>
+       <td>Chainsaw massacre</td>
+       <td >No, too violent</td>
+       <td>Yes</td>
+   </tr>
+   <tr>
+       <td>The care bears go skiing</td>
+       <td>Yes, suitable</td>
+       <td>Not violent enough...</td>
+   </tr>
+   <tr>
+       <td>Lucky Luke, goes it alone</td>
+       <td colspan="2">For the whole family!</td>
+   </tr>
+</table>
+Important note: you can see that line 19 only contains two cells instead of three (there are only two tags <td>). This is quite normal as I merged the last two cells together. The <td colspan="2"> specifies that this cell takes the place of two cells at a time.
+
+And how do you proceed for vertical merging with rowspan?
+
+This is a bit more complicated. For our example, we going to "reverse" our table order: instead of putting the film titles on the left, we'll put them at the top.
+It's another way of seeing the table: instead of building height-wise, we can build it length-wise.
+
+In this case colspan is no longer suitable and rowspan should be used:
+
+<table>
+   <tr>
+       <th>Film title</th>
+       <td>Chainsaw massacre</td>
+       <td>The care bears go skiing</td>
+       <td>Lucky Luke, goes it alone</td>
+   </tr>
+   <tr>
+       <th>For children?</th>
+       <td>No, too violent</td>
+       <td>Yes, suitable</td>
+       <td rowspan="2">For the whole family!</td>
+   </tr>
+   <tr>
+       <th>For adolescents?</th>
+       <td>Yes</td>
+       <td>Not violent enough...</td>
+   </tr>
+</table>
+Result: the cells are merged vertically (figure below)!
+
+The cells have been vertically merged
+The cells have been vertically merged
+Note that you can change the vertical alignment of the text in table cells using the vertical-align that we found out about in the chapter on page layout.
+
+Summing up
+A table is inserted using the <table> tag and is defined row by row using the <tr> tag.
+
+Each row contains <td> cells (normal cells) or <th> cells (header cells).
+
+The table title is defined using <caption>.
+
+You can add a border to the table cells using border. To merge borders, you use the CSS property border-collapse.
+
+A table can be divided into three sections: <thead> (header), <tbody> (body) and <tfoot> (table footer). The use of these tags is not compulsory.
+
+You can merge cells horizontally using the colspan attribute or vertically using rowspan. You have to specify how many cells have to be merged.
+
+TOPIC: FORM INTERACTIVE
+Forms
+Any HTML page can be enhanced with interactive forms that prompt visitors to fill in information: enter text, select options, confirm with a button... anything is possible!
+
+However, we are reaching the limits of the HTML language as you then have to analyze the information that the visitor has entered... and this can't be done in HTML. As we're going to see, the results have to be processed in another language, such as PHP, for example.
+
+In the meantime, we have a large number of new HTML tags to discover. Welcome to the wonderful world of forms. A world where buttons, checkboxes and drop-down lists coexist harmoniously (well almost).
+
+Creating a form
+When you have the sudden urge to insert a form in your HTML page, you need to start by writing a<form> </form>tag. This is the form's main tag and it specifies its start and end.
+
+<p>Text before the form</p>
+
+<form>
+   <p>Text inside the form</p>
+</form>
+
+<p>Text after the form</p>
+Note that you have to enter block tags (as<p> </p>) inside your form if you want to include text in it.
+
+So much for basic structure. Now, pay attention: what I'm going to tell you isn't easy as we've reached the limits of HTML.
+
+Let's take an example to make things clear. Suppose your visitor has just entered a comment in your form, such as, for example, a message that they'd like to publish in your forums. This message has to be sent so that you can receive it (logical, right?) and display it to your other visitors.
+
+Well, that's the problem, or rather those are the problems, we're going to address:
+
+Problem No 1: how do you submit the text entered by the visitor? By what means?
+
+Problem No 2: once the data have been sent, how do you process them? do you want to receive the message automatically by e-mail or would you prefer a program to save it somewhere, and then display it in a page that everyone can see?
+
+To provide the solutions to these two problems, you have to add two attributes to the<form>tag:
+
+method: this attribute specifies the means by which the data are going to be sent (solution to problem No 1). There are two ways to submit data to the Web:
+
+method="get": this is a method that is generally not well suited as it's limited to 255 characters. The particularity comes from the fact that the information will be sent to the page address (http://…), although this detail doesn't really matter for the time being. I recommend you use the other method most of the time:post.
+
+method="post": it's the most widely used method for forms as it allows a lot of information to be sent. The data entered in the form don't go through the address bar.
+
+action: is the address of the page or program that is going to process the information (solution to problem No 2). This page will send you an e-mail with the message if this is what you want, or else save the message with all other messages in a database.
+This can't be done in HTML and CSS so we generally use another language that you may have heard about: PHP.
+
+So we're now going to complete the<form>tag with two attributes that we've just seen.
+
+Formethod, you've guessed it, I'm going to enter the valuepost.
+Foraction, I'm going to enter the name of a fictitious page in PHP (traitement.php). This is the page that will be called when the visitor clicks on the submit button in the form.
+
+<p>Text before the form</p>
+
+<form method="post" action="target.php">
+   <p>Text inside the form</p>
+</form>
+
+<p>Text after the form</p>
+For the time being, we don't know what happens inside the pagetarget.php: let's take my word for it and assume that this page is up and running.
+
+Our priority, for the time being, is to find out in HTML/CSS how to insert text fields, buttons and checkboxes in our web page. And this is what we're going to see now.
+
+Basic entry fields
+So, let's get back to something tangible.
+
+We're going to review the various HTML tags needed to enter text in a form.
+You should know that there are two different text fields:
+
+The single-line text field: as its name suggests, you can only enter a single line into it. It's used to enter short texts, such as a user name.
+
+The multi-line text field: this text field allows you to enter a large amount of text on several lines, for example, a dissertation on the use of HTML in the development of countries of South-East Asia (just a suggestion, eh... ).
+
+Single-line text field
+The figure below shows what a single-line text field looks like.
+
+A single-line text field
+A single-line text field
+To insert a text field in a line, we're going to use the tag<input />.
+
+We'll come across this tag several times later in this chapter. In each case, it's the value of thetypethat will change.
+
+To create a single-line text field, you have to enter:
+
+<input type="text" />
+This is still not enough: you have to give your text field a name. Although this name doesn't appear on the page, you'll need it later. Indeed, it'll tell you (in PHP, for instance) where the information comes from: you'll know that such and such a text is the visitor's user name, such and such a text is the password they've chosen, etc.
+
+To give a name to a form item, you use the attributename. Here, we're going to assume that the visitor is asked to re-enter their user name:
+
+<input type="text" name="pseudo" />
+So let's try to create a very basic form with our text field:
+
+<form method="post" action="target.php">
+   <p><input type="text" name="username" /></p>
+</form>
+As usual, I strongly suggest you try this code yourself to see the result.
+
+Labels
+This text field is all very well but if your visitor comes across it, they won't know what to enter. This is precisely the role of the<label>tag:
+
+<form method="post" action="target.php">
+    <p>
+        <label>Your user name</label> : <input type="text" name="username" />
+    </p>
+</form>
+This code gives the exact same result that you saw in the previous figure.
+
+But this is not enough. You have to link the label to the text field.
+To do this, you have to give the text field a name, not using thenameattribute but with theidattribute (that can be used with all tags).
+
+Anameand anidin the field? Won't that be redundant?
+
+Yes, somewhat. Personally, I givenameandidthe same value, this is not a problem.
+
+To link the label to the field, it has to be given anforattribute which has the same value of the fieldid... It's best to see this in an example:
+
+<form method="post" action="target.php">
+   <p>
+       <label for="username">Your user name</label> : <input type="text" name="username" id="username" />
+   </p>
+</form>
+Try clicking on the "Your user name" text: you'll see that the cursor is automatically placed in the corresponding text field.
+
+A few additional attributes
+You can add a number of other attributes to the<input />tag to customize its operation:
+
+You can increase the size of the field usingsize.
+
+You can limit the number of characters that can be entered usingmaxlength.
+
+You can pre-populate the field with a default value usingvalue.
+
+You can give some indication of the field's contents usingplaceholder. This indication will disappear as soon as the visitor has clicked inside the field.
+
+In the following example, the text field contains an indication providing an understanding of what should be entered; although the field is 30 characters long, you can't enter more than 10 characters inside:
+
+<form method="post" action="target.php">
+    <p>
+        <label for="username">Your user name:</label>
+        <input type="text" name="username" id="username" placeholder="Zozor" size="30" maxlength="10" />
+    </p>
+</form>
+Test the result yourself to see how the field behaves. In the meantime, the figure below shows how the field looks in its initial state.
+
+
+
+A text field with an indication (placeholder)
+
+Password field
+You can easily make the text field behave like a "password field", in other words, a field where you don't see on the screen the characters entered. To create this type of entry field, use the attributetype="password".
+
+I'll fill in my form. It now prompts the visitor to enter their user name and their password:
+
+<form method="post" action="target.php">
+   <p>
+       <label for="username">Your user name:</label>
+       <input type="text" name="username" id="username" />
+       
+       <br />
+       <label for="pass">Your password:</label>
+       <input type="password" name="pass" id="pass" />
+       
+   </p>
+</form>
+You'll see that the password characters aren't displayed on the screen, as shown in the figure below.
+
+
+
+A password entry field
+
+Multi-line text field
+To create a multi-line text field, you change the tag: we're going to use<textarea> </textarea>.
+
+Like any other form item, you have to give it a name usingnameand use alabelthat explains what it is.
+
+<form method="post" action="target.php">
+   <p>
+       <label for="improve">How do you think I could improve my website?</label><br />
+       <textarea name="improve" id="improve"></textarea>
+   </p>
+</form>
+And here's the result as an image (figure below)!
+
+A small multi-line entry field
+A small multi-line entry field
+As you can see, it's a bit small! Fortunately, you can change the size of<textarea>in two different ways.
+
+In CSS: just apply the CSS propertieswidthandheightto<textarea>.
+
+With attributes: you can add the attributesrowsandcolsto the tag<textarea>. The first one specifies the number of lines of text that can be displayed simultaneously, and the second one the number of columns.
+
+Why do you open the<textarea>tag and then close it again immediately afterwards?
+
+You can pre-populate<textarea>with a default value. In this case, we don't use the attributevalue: we simply enter the default text between the opening tag and the closing tag!
+
+<form method="post" action="target.php">
+   <p>
+       <label for="improve">
+       How do you think I can improve my website?
+       </label>
+       <br />
+       
+       <textarea name="improve" id="improve" rows="10" cols="50">
+       Improve your website?! 
+       Come now! It's so great it won't need any improving!
+       </textarea>       
+   </p>
+</form>
+And here's the result in the figure below.
+
+A pre-completed multi-line entry field
+A pre-completed multi-line entry field
+Enhanced entry fields
+HTML5 provides many new features related to forms. Indeed, new field types emerged with this version. Just give thetypeattribute of the<input />tag one of the new available ​​values. Let's do a quick overview!
+
+All browsers don't yet recognize these enhanced entry fields. In their place, older browsers will display a simple single-line text field (as if you'd enteredtype="text"). Between you and me, this is just fine: new browsers can enjoy the latest features, while older browsers display a replacement text field that fits just as well.
+So you're advised to use these new entry fields from now on! At best, your visitors will benefit from the new features and, at worst, they won't see any problem.
+
+Email
+You can prompt visitors to enter an email address:
+
+<input type="email" />
+The field will normally seem the same to you, but your browser now knows that the user has to enter an email address. It can display an indication if the address is not an email, which is what Firefox does, for example (figure below).
+
+An incorrectly entered e-mail is framed in red in Firefox
+An incorrectly entered email is framed in red in Firefox
+Note that some browsers, such iPhone and Android mobile browsers for example, display a keyboard suitable for entering email addresses (below).
+
+iPhone e-mail entry keyboard
+iPhone email entry keyboard
+A URL
+With theurltype, you can prompt the visitor to enter an absolute address (usually starting withhttp://):
+
+<input type="url" />
+Same principle: if the field doesn't seem different on your computer, be aware that it has effectively understood that the visitor is supposed to enter an address. For example, mobile browsers display a keyboard suitable for entering URLs (figure below).
+
+iPhone URL entry keyboard
+iPhone URL entry keyboard
+Phone number
+This field is used for entering phone numbers:
+
+<input type="tel" />
+On the iPhone, for example, a suitable keyboard is displayed when the visitor has to fill in the field (figure below).
+
+iPhone phone number entry keyboard
+iPhone phone number entry keyboard
+Number
+This field is used to enter an integer:
+
+<input type="number" />
+The field is usually displayed with small arrows to change the value (figure below).
+
+Number entry field
+
+Number entry field
+
+You can customize the way the field works with the following attributes:
+
+min: minimum allowed value.
+
+max: maximum allowed value.
+
+step: this is the movement "step". If you specify a step of 2, the field will only accept 2 by 2 values (for example, 0, 2, 4, 6, etc.).
+
+A cursor
+Therangetype is used to select a number with a cursor (also called a slider), as in the figure below:
+
+<input type="range" />
+A cursor through the range type
+
+A cursor through the range type
+
+You can use themin,maxandstepattributes again to restrict the available values.
+
+Color
+This field allows you to enter a color:
+
+<input type="color" />
+In practice, it is not used all that much by browsers at the present time. Don't be surprised if you only see an ordinary text field.
+
+Date
+There are various types of date selection fields:
+
+date: for the date (05/08/1985, for example);
+
+time: for the time (13:37, for example);
+
+week: for the week;
+
+month: for the month;
+
+datetime: for the date and time (with time zone management);
+
+datetime-localfor the date and time (no time zone management).
+
+Example:
+
+<input type="date" />
+As you can see, there's a wide choice!
+At present, few browsers support this type of field except for Opera.
+
+Search
+You can create a search field like this:
+
+<input type="search" />
+The browser then decides how to display the search field. It can thus add a small magnifying glass meaning that it's a search field and to possibly store the last searches performed by the visitor.
+
+Options
+HTML provides a whole slew of options that can be used in your form. These are items that require the visitor to choose from a list of possibilities. We're going to review:
+
+checkboxes;
+
+options fields;
+
+drop-down lists.
+
+Checkboxes
+How do you create a checkbox? Nothing could be easier! We're going to use the<input />tag, this time specifying the typecheckbox:
+
+<input type="checkbox" name="choice" />
+Add a<label>in the right position, and there you are!
+
+<form method="post" action="target.php">
+   <p>
+       Check the foods you like to eat:<br />
+       <input type="checkbox" name="fries" id="fries" /> <label for="fries">Fries</label><br />
+       <input type="checkbox" name="hamburger" id="hamburger" /> <label for="hamburger">Hamburger</label><br />
+       <input type="checkbox" name="spinach" id="spinach" /> <label for="spinach">Spinach</label><br />
+       <input type="checkbox" name="oysters" id="oysters" /> <label for="oysters">Oysters</label>
+   </p>
+</form>
+And here's the result in the figure below.
+
+Checkboxes
+Checkboxes
+Don't forget to give a different name to each checkbox. Later on, this will allow you to identify the ones checked by the visitor.
+
+Finally, remember that you can have a box checked as default using the attributechecked:
+
+<input type="checkbox" name="choice" checked />
+All attributes normally have a value. In this case, however, adding a value is not required: the presence of the attribute is enough to make the computer understand that the box has to be checked.
+If this bothers you, remember that you can assign any value to the attribute (some webmasters sometimes writechecked="checked"but it's a bit redundant!). The box will be checked irrespectively.
+
+Options fields
+The options fields allow you to choose one (and only one) option from a list of possibilities. They look somewhat like checkboxes but there is a slight additional difficulty: they have to be organized as groups. Although the options in the same group have the same (name), each option has to have a different (value).
+
+The tag to be used is always a<input />, this time with the valueradiofor the attributetype.
+
+The example below will make this clearer:
+
+<form method="post" action="target.php">
+   <p>
+       Please indicate your age group:<br />
+       <input type="radio" name="age" value="moins15" id="moins15" /> <label for="moins15">Less than 15 years old</label><br />
+       <input type="radio" name="age" value="medium15-25" id="medium15-25" /> <label for="medium15-25">15-25 years old</label><br />
+       <input type="radio" name="age" value="medium25-40" id="medium25-40" /> <label for="medium25-40">25-40 years old</label><br />
+       <input type="radio" name="age" value="plus40" id="plus40" /> <label for="plus40">Even older than that?!</label>
+   </p>
+</form>
+Which gives result shown in the next figure.
+
+Radio buttons
+Radio buttons
+Why did you put the same name for each option? Just so that the browser knows which "group" the button belongs to.
+Try removing thenameattributes and you'll see that you can then select all the options. However, this is not what we want, which is why we "link" them together by giving them the same name.
+
+You'll notice that this time we've chosen aniddifferent fromname. Indeed, as the values fornameare the same, we couldn't have differentiated the ids (and you know full well that anidhas to be unique!). That's why we've chosen to give theidthe same value asvalue.
+
+If you have two different options fields, you have to give a uniquenameto each group, like this:
+
+<form method="post" action="target.php">
+   <p>
+       Please indicate your age group:<br />
+       <input type="radio" name="age" value="less15" id="less15" /> <label for="less15">Less than 15 years old</label><br />
+       <input type="radio" name="age" value="medium15-25" id="medium15-25" /> <label for="medium15-25">15-25 years old</label><br />
+       <input type="radio" name="age" value="medium25-40" id="medium25-40" /> <label for="medium25-40">25-40 years old</label><br />
+       <input type="radio" name="age" value="plus40" id="plus40" /> <label for="plus40">Even older than that?!</label>
+   </p>
+   <p>
+       Which continent do you live on?<br />
+       <input type="radio" name="continent" value="europe" id="europe" /> <label for="europe">Europe</label><br />
+       <input type="radio" name="continent" value="africa" id="africa" /> <label for="africa">Africa</label><br />
+       <input type="radio" name="continent" value="asia" id="asia" /> <label for="asia">Asia</label><br />
+       <input type="radio" name="continent" value="america" id="america" /> <label for="america">America</label><br />
+       <input type="radio" name="continent" value="australia" id="australia" /> <label for="australia">Australia</label>
+   </p>
+</form>
+Thecheckedattribute is again available for selecting a default value.
+
+Drop-down lists
+Drop-down lists are another elegant way of selecting an option from several possibilities. They work in a slightly different way. We going to use the<select> </select>tag which specifies the start and end of the drop-down list. We add thenameattribute to the tag to give a name to the list.
+
+Then, inside the<select> </select>tag, we're going to insert several<option> </option>tags (one for each possible choice). We add avalueattribute to each of them to identify what the visitor has chosen.
+
+Here's an example of use:
+
+<form method="post" action="target.php">
+   <p>
+       <label for="country">What country do you live in?</label><br />
+       <select name="country" id="country">
+           <option value="unitedstates">United States</option>
+           <option value="canada">Canada</option>
+           <option value="unitedkingdom">United Kingdom</option>
+           <option value="france">France</option>
+           <option value="spain">Spain</option>
+           <option value="italy">Italy</option>
+           <option value="china">China</option>
+           <option value="japan">Japan</option>
+       </select>
+   </p>
+</form>
+The result obtained is shown in the figure below.
+
+
+
+A drop-down list
+
+If you want an option to be selected as default, this time use the attributeselected:
+
+<option value="canada" selected>Canada</option>
+You can also group your options using the tag<optgroup> </optgroup>. In our example, why don't you separate country according to their continent?
+
+<form method="post" action="target.php">
+   <p>
+       <label for="country">What country do you live in?</label><br />
+       <select name="country" id="country">
+           <optgroup label="Europe">
+               <option value="unitedkingdom">United Kingdom</option>
+               <option value="france">France</option>
+               <option value="spain">Spain</option>
+               <option value="italy">Italy</option>
+           </optgroup>
+           <optgroup label="America">
+               <option value="unitedstates">United States</option>
+               <option value="canada">Canada</option>
+           </optgroup>
+           <optgroup label="Asia">
+               <option value="china">China</option>
+               <option value="japan">Japan</option>
+           </optgroup>
+       </select>
+   </p>
+</form>
+The result obtained is shown in the figure below.
+
+
+
+Options are grouped by continent
+
+Groups cannot be selected. So we can't choose "Europe" in our example: only country names can be selected.
+
+Finalizing and submitting the form
+We're almost there. It only remains for us to decorate our form with few final features (such as confirmation) and then add the form submit button.
+
+Grouping fields
+If your form has grown and has a lot of fields, it may be useful to group them within several tags<fieldset>. Each<fieldset>can contain a caption with the tag<legend>. Look at this example:
+
+<form method="post" action="target.php">
+ 
+   <fieldset>
+       <legend>Your contact details</legend> <!-- Fieldset title --> 
+
+       <label for="lastname">What's your last name?</label></br>
+       <input type="text" name="lastname" id="lastname" /></br>
+
+       <label for="firstname">What's your first name?</label></br>
+       <input type="text" name="firstname" id="firstname" /></br>
+ 
+       <label for="email">What's your email address?</label></br>
+       <input type="email" name="email" id="email" /></br>
+
+   </fieldset>
+ 
+   <fieldset>
+       <legend>Your wish</legend> <!-- Fieldset title -->
+ 
+       <p>
+           Make a wish that you would like to come true:</br>
+
+           <input type="radio" name="wish" value="rich" id="rich" /> <label for="rich">Be rich</label></br>
+           <input type="radio" name="wish" value="famous" id="famous" /> <label for="famous">Be famous</label></br>
+           <input type="radio" name="wish" value="intelligent" id="intelligent" /> <label for="intelligent">Be <strong>even more</strong> intelligent</label></br>
+           <input type="radio" name="wish" value="other" id="other" /> <label for="other">Other...</label></br>
+       </p>
+ 
+       <p>
+           <label for="specs">If "Other", please specify:</label></br>
+           <textarea name="specs" id="specs" cols="40" rows="4"></textarea>
+       </p>
+   </fieldset>
+</form>
+The result obtained is shown in the figure below.
+
+
+
+The fields are grouped
+
+Automatically selecting a field
+You can automatically place the cursor in one of the fields in your form using the attributeautofocus. Once the visitor loads the page, the cursor appears in this field.
+
+For example, to place the cursor as default in the fieldname:
+
+<input type="text" name="firstname" id="firstname" autofocus />
+Making a field mandatory
+You can make a field mandatory by assigning it the attributerequired.
+
+<input type="text" name="firstname" id="firstname" required />
+The browser will then tell the visitor, if the field is empty when the form is submitted, that they are required to fill it in.
+
+Older browsers that don't recognize this attribute, submit the form contents without a check. For these browsers, you'll need to supplement the tests, for example, with JavaScript scripts.
+
+CSS provides pseudo-formats for changing the style of items that are (:required) and (:invalid). Don't forget either that you have the pseudo-format:focusto change the appearance of a control when the cursor is within.
+
+:required
+{
+    background-color: red;
+}
+The submit button
+So all we have to do now is create the submit button. Here again, the<input />tag comes to our rescue It's available in four versions:
+
+type="submit": the form main submit button. This is the one you'll use most often. The visitor will be taken to the page specified in the form'sactionattribute
+
+type="reset": reset the form.
+
+type="image": equivalent of thesubmitbutton, displayed this time as an image. Add thesrcattribute to specify the image URL.
+
+type="button": generic button, which will have no effect (as default). In general, this button is handled in JavaScript to perform actions in the page. We won't use it here.
+
+You can change the text displayed inside buttons using the attributevalue.
+
+To create a submit button, we thus write for example:
+
+<input type="submit" value="Submit" />
+Which gives result shown in the next figure.
+
+A submit button
+A submit button
+When you click the "Submit" button, the form then takes you to the page specified in the attributeaction. Remember, we imagined a fictitious page:target.php.
+
+The problem is that you can't create this page in HTML only. You have to learn a new language, such as PHP, to be able to "retrieve" the entered information and decide what to do with it. As it happens, I'm also writing a course on the PHP language for those who might be interested! This course will be published soon.
+
+Some websites provide services called "Mailform" which send you an e-mail when one of your visitors has filled in the form. Although this eliminates the need to learn a new language, it's not very convenient: you have to either pay, or put up with advertising... and you don't have many possibilities for customizing data processing.
+
+Summing up
+A form is an interactive area in the page, where your visitors can enter information.
+
+A form is circumscribed using the<form>tag to which two attributes have to be added:method(data submitting method) andaction(page to which the visitor is redirected after submitting the form and which processes the information).
+
+Many of the form's items can be inserted using the tag<input />. The value of itstypeattribute specifies the field type to be inserted:
+
+text: text field;
+
+password: text field for password;
+
+tel: phone number;
+
+checkbox: checkbox;
+
+...
+
+The<label>tag is used to enter a label. It is associated with a form field using theforattribute, which must have the same value as the form fieldid.
+
+You can make a field mandatory using therequiredattribute, ensure that it is selected as default usingautofocus, and specify an indication in the field usingplaceholder…
+
+To retrieve what visitors have entered, the HTML language is not sufficient. You have to use a "server" language such as PHP... If you want to go further, you're going to have to learn a new language!
+
+CSS FOR PROJECT3
+
+body {
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  color: #25463e;
+}
+
+element.style {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  text-shadow: 5px;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+/*-- about me--*/
+#wrapper {
+  width: 90%;
+  min-height: 600px;
+  text-align: center;
+  background-color: lightsteelblue;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.clearfix {
+  display: block;
+}
+header {
+  position: relative;
+  z-index: 9999;
+  width: 100%;
+}
+#main {
+  min-height: 500px;
+  background: url(../imgs/img7.jpg);
+  background-size: cover;
+  background-position: right;
+}
+inner-container {
+  position: relative;
+  width: 100%;
+}
+
+#aboutme {
+  width: 100%;
+  min-height: 400px;
+  letter-spacing: 0em;
+  padding-top: 20px;
+  overflow: hidden;
+  
+}
+.justify {
+  width: 80%;
+  text-align: justify;
+  margin: 0 auto;
+  margin-left: 3px;
+  word-break: break-all;
+}
+
+h3 {
+  float: left;
+  margin: 2.5% 40px;
+  font-weight: lighter;
+  text-align: left;
+}
+
+h2 {
+  font-weight: 10px;
+  font-weight: lighter;
+  }
+
+
+  .logo {
+    width: 10%;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: larger;
+  }
+
+em {
+  border-left: 1px solid #25463e;
+  font-weight: lighter;
+}
+
+nav {
+  width: 100%;
+  background-color: blanchedalmond;
+  padding-top: 5px;
+  margin: 0px auto;
+  padding-bottom: 5px;
+  display: table;
+  height: 52px;
+  border: 1px solid blanchedalmond;
+}
+.nav li {
+  display: inline-block;
+  margin: 0px 0px 0px 25px;
+  padding-bottom: 5px;
+  list-style-type: none;
+  border-right: 1px solid burlywood;
+}
+nav a {
+  color: blanchedalmond;
+  margin-right: 10px;
+  text-decoration: none;
+  margin: auto;
+  list-style-type: none;
+  color: #25463e;
+  height: 40px;
+  padding-right: 20px;
+  display: block;
+}
+.nav li a {
+  color: #2b2b2b;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.details {
+  width: 60%;
+  min-height: 500px;
+  float: left;
+  text-align: left;
+  padding-left: 50px;
+}
+
+.photo {
+  min-width: 40%;
+  min-height: 400px;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+/* skill */
+
+#skills {
+  width: 100%;
+  min-height: 200px;
+  padding: 20px;   
+}
+
+.container {
+  width: 90%;
+  text-align: center;
+  background-color: burlywood;
+  text-decoration: none;
+}
+.progress-bar {
+  width: 30%;
+  height: 200px;
+  margin: auto;
+  margin-top: 100px;
+  display: inline-block;
+}
+
+.html {
+  width: 95%;
+  background-color: #25463e;
+  text-align: right;
+  color: white;
+  animation: html 2s;
+  }
+.css {
+  width: 80%; 
+  background-color:  #25463e;
+  text-align: right;
+  color: white;
+  animation: css 2s;
+}
+.javascript {
+  width: 75%; 
+  background-color:  #25463e;
+  text-align: right;
+  color: white;
+  animation: javascript 2s;
+}
+.webdesign {
+  width: 96%; 
+  background-color:  #25463e;
+  text-align: right;
+  color: white;
+  animation: webdesign 2s;
+}
+.photoshop {
+  width: 86%; 
+  background-color: #25463e;
+  text-align: right;
+  color: white;
+  animation: photoshop 2s;
+}
+
+.logodesign {
+  width: 70%;
+  background-color: #25463e;
+  text-align: right;
+  color: white;
+  animation: logodesign 2s;
+}
+@keyframes html {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes css {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+@keyframes javascript {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 75%;
+  }
+}
+
+@keyframes webdesign {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 96%;
+  }
+}
+
+@keyframes photoshop {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 86%;
+  }
+}
+@keyframes logodesign {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+/*Education*/
+#Education {
+  min-height: 200px;
+  text-align: center;
+  padding: 20px;
+}
+
+
+/*contact */
+#Contact {
+  min-height: 200px;
+  padding: 10px;
+}
+.footer {
+  width: 60px;
+  height: 100px;
+  display: grid;
+  color: white;
+  text-align: center;
+}
+.fab {
+  font-size: 30px;
+  color: #25463e;
+  padding-top: 5px;
+  animation-name: fab;
+  animation-duration: 6s;
+}
+
+@keyframes fab {
+  from {color: blue;}
+  to {color:
+     crimson;}
+}
+input[type=text], select, textarea {
+  width: 50%;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 3px;
+  margin-bottom: 5px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  margin-left: 25%;
+}
+
+input[type=submit]:hover {
+  background-color: black;
+  
+}
+
+/*portfolio*/
+#portfolio {
+  min-height: 200px;
+  padding: 10px;
+}
+
+.sub-main {
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  margin: 0px 30px 40px;
+  box-shadow: 10px 10px 30px 7px rgb(15,35,110.150),
+  -10px -10px 30px 7px rgb(15,35,110.150);
+  cursor: pointer;
+  transition: 4s;
+  transition-timing-function: cubic-bezier(1, 0, 0, 1);
+}
+.p3-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+.p1-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.p2-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+/*Experience*/
+#Experience {
+  width: 100%;
+  min-height: 200px;
+  text-align: center;
+  display: inline-block;
+}
+html,
+.root {
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+}
+
+body {
+  font: menu;
+  font-size: 1rem;
+  line-height: 1.4;
+  padding: 0;
+  margin: 0;
+}
+section-main {
+  padding-top: 4rem;
+  width: 50%;
+  margin: auto;
+}
+details[open] summary ~ * {
+  animation: open 0.3s ease-in-out;
+}
+
+@keyframes open {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+details summary {
+  width: 100%;
+  padding: 0.5rem 0;
+  border-top: 1px solid black;
+  position: relative;
+  cursor: pointer;
+  font-size: 1.25rem;
+  font-weight: 400;
+  list-style: none;
+}
+
+details summary:after {
+  content: "+";
+  color: black;
+  position: absolute;
+  font-size: 1.75rem;
+  line-height: 0;
+  margin-top: 0.75rem;
+  right: 0;
+  font-weight: 200;
+  transform-origin: center;
+  transition: 200ms linear;
+}
+details[open] summary:after {
+  transform: rotate(45deg);
+  font-size: 2rem;
+}
+details summary {
+  outline: 0;
+}
+details p {
+  font-size: 0.95rem;
+  margin: 0 0 1rem;
+  padding-top: 1rem;
+}
+.date {
+  width: 10%;
+  vertical-align: text-top;
+  margin-left: 10px;
+  margin-bottom: 30px;
+  padding: 5px;
+  display: inline-block;
+  margin-top: 5px;
+}
+.detail {
+  width: 80%;
+  padding: 5px;
+  margin-top: 0px;
+  display: inline-block;
+  vertical-align: text-top;
+  text-align: left;
+  margin-left: 5px;
+}
+
+
+@media only screen and (max-width: 700px) {
+  .nav li {
+    height: 20px;
+    display: block;
+  }
+
+  nav {
+    margin-top: 30px;
+  }
+
+  .logo {
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+}
+
+GITHUB
+ls
+cd
+git init
+git remote add or origin<gitlink>
+remote  -v
+add
+commit -m "first commit"
+git push origin master
+git help.
+
+html <section id="portfolio">
+        <h2>Portfolio</h2>
+          <div class="image">
+           
+            <div class= "sub-main">        
+              <img class="p1-img" src="imgs/graphic-design-39.png" 
+              alt="img">
+              <span>Graphic Design</span>
+            </div>
+          <div class= "sub-main">
+              <img class="p2-img" src="imgs/advertisement-design4.jpg" 
+            alt="img">
+            <span>Advertisement Design</span>
+          </div>
+            <div class= "sub-main">
+              <img class="p3-img" src="imgs/img-5.png" 
+              alt="img">
+              <span>Web Design</span>
+            </div>
+        
+         </div>
+      </section>
+sass
+.image {
+  display: inline-flex;
+  width: 100%;
+  padding: 4% 2%;
+  box-sizing: border-box;
+  height: 70vh;
+}
+
+.sub-main {
+  flex: 1;
+  height: auto;
+  overflow: hidden;
+  transition: .5s;
+  margin: 0 2%;
+  box-shadow: 0 20px 30px rgba(0,0,0,.1);
+  line-height: 0;
+}
+
+.sub-main > img {
+  width: 200%;
+  height: calc(100% - 10vh);
+  object-fit: cover; 
+  transition: .5s;
+}
+
+.sub-main > span {
+  font-size: 3.8vh;
+  display: block;
+  text-align: center;
+  height: 10vh;
+  line-height: 2.6;
+}
+
+.sub-main:hover { flex: 1 1 50%; }
+.sub-main:hover > img {
+  width: 100%;
+  height: 100%;
+}
+ 
+
